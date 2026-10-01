@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Birthday Surprise 🎂</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="balloons"></div>
+    <div id="confetti"></div>
+    <div class="container">
+
+        <!-- FIRST SCREEN -->
+        <div id="welcome">
+
+            <h1>🎂 Janamdin ki hardik shubhkamnayein !! 🎂</h1>
+
+            <p class="subtitle">
+                I have a little surprise for you... 💖
+            </p>
+
+            <button onclick="openSurprise()">
+                🎁 Chota sa gift ..
+            </button>
+
+        </div>
+
+
+        <!-- SURPRISE SCREEN -->
+        <div id="surprise">
+
+            <h2>✨ Your Special Day ✨</h2>
+
+            <!-- Cake -->
+            <div class="cake-container">
+
+                <div class="candles">
+
+                     <span class="candle">🔥</span>
+                     <span class="candle">🔥</span>
+                    <span class="candle">🔥</span>
+
+</div>
+    <div class="cake">
+        🎂
+    </div>
+
+</div>
+
+<button onclick="blowCandles()">
+    🌬️ Blow the Candles
+</button>
+
+<p id="candleMessage"></p>
+
+                <div class="sparkles">
+                    ✨ ✨ ✨
+                </div>
+
+            </div>
+
+            <p class="birthday-text">
+                Hamesha khush raho !! 
+                Muskurate raho !! 💕
+            </p>
+
+
+            <!-- MAKE A WISH -->
+            <div class="wish-section">
+
+                <h2>🌟 Make a Wish 🌟</h2>
+
+                <p>
+                    Close your eyes and make a special wish... 💫
+                </p>
+
+                <input
+                    type="text"
+                    id="wishInput"
+                    placeholder="Write your wish here..."
+                >
+
+                <br>
+
+                <button onclick="sendWish()">
+                    💌 Send !!!
+                </button>
+
+                <p id="wishMessage"></p>
+
+            </div>
+
+
+            <!-- LETTER -->
+            <div class="letter-section">
+
+                <button onclick="openLetter()">
+                    💌 Open Your Letter
+                </button>
+
+                <div id="letter">
+
+                    <h2>💖 A Birthday Letter For You 💖</h2>
+
+                    <p>
+                        On your special day, I just want to wish you
+                        endless happiness, beautiful moments and lots
+                        of reasons to smile. ✨
+                    </p>
+
+                    <p>
+                        May this new year of your life bring you
+                        wonderful memories, exciting adventures and
+                        everything your heart wishes for. 🌸
+                    </p>
+
+                    <p>
+                        Keep smiling, keep shining and always stay
+                        the amazing person you are. 💕
+                    </p>
+
+                    <p>
+                        Once again...
+
+                        <br><br>
+
+                        🎂 <b>HAPPY BIRTHDAY!</b> 🎂
+
+                        <br><br>
+
+                        With lots of love and best wishes. ❤️
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
